@@ -1,0 +1,57 @@
+cabal: Entering directory '/tmp/cabal-tmp-31567/clock-0.7.2'
+Configuring clock-0.7.2...
+Building clock-0.7.2...
+Preprocessing library clock-0.7.2...
+Clock.hsc:44:0: warning: "hsc_alignment" redefined
+In file included from dist/dist-sandbox-1472e690/build/System/Clock_hsc_make.c:1:0:
+/usr/lib/ghc/template-hsc.h:88:0: note: this is the location of the previous definition
+ #define hsc_alignment(t...) \
+ 
+[1 of 1] Compiling System.Clock     ( dist/dist-sandbox-1472e690/build/System/Clock.hs, dist/dist-sandbox-1472e690/build/System/Clock.o )
+[1 of 1] Compiling System.Clock     ( dist/dist-sandbox-1472e690/build/System/Clock.hs, dist/dist-sandbox-1472e690/build/System/Clock.p_o )
+
+System/Clock.hsc:11:8: error:
+    Failed to load interface for ‘Prelude’
+    Perhaps you haven't installed the profiling libraries for package ‘base-4.9.1.0’?
+    Use -v to see a list of the files searched for.
+
+System/Clock.hsc:22:1: error:
+    Failed to load interface for ‘Control.Applicative’
+    Perhaps you haven't installed the profiling libraries for package ‘base-4.9.1.0’?
+    Use -v to see a list of the files searched for.
+
+System/Clock.hsc:23:1: error:
+    Failed to load interface for ‘Data.Int’
+    Perhaps you haven't installed the profiling libraries for package ‘base-4.9.1.0’?
+    Use -v to see a list of the files searched for.
+
+System/Clock.hsc:24:1: error:
+    Failed to load interface for ‘Data.Word’
+    Perhaps you haven't installed the profiling libraries for package ‘base-4.9.1.0’?
+    Use -v to see a list of the files searched for.
+
+System/Clock.hsc:25:1: error:
+    Failed to load interface for ‘Data.Typeable’
+    Perhaps you haven't installed the profiling libraries for package ‘base-4.9.1.0’?
+    Use -v to see a list of the files searched for.
+
+System/Clock.hsc:26:1: error:
+    Failed to load interface for ‘Foreign.Ptr’
+    Perhaps you haven't installed the profiling libraries for package ‘base-4.9.1.0’?
+    Use -v to see a list of the files searched for.
+
+System/Clock.hsc:27:1: error:
+    Failed to load interface for ‘Foreign.Storable’
+    Perhaps you haven't installed the profiling libraries for package ‘base-4.9.1.0’?
+    Use -v to see a list of the files searched for.
+
+System/Clock.hsc:28:1: error:
+    Failed to load interface for ‘Foreign.Marshal.Alloc’
+    Perhaps you haven't installed the profiling libraries for package ‘base-4.9.1.0’?
+    Use -v to see a list of the files searched for.
+
+System/Clock.hsc:29:1: error:
+    Failed to load interface for ‘GHC.Generics’
+    Perhaps you haven't installed the profiling libraries for package ‘base-4.9.1.0’?
+    Use -v to see a list of the files searched for.
+cabal: Leaving directory '/tmp/cabal-tmp-31567/clock-0.7.2'

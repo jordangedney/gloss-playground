@@ -1,0 +1,20 @@
+Configuring unicode-transforms-0.3.3...
+Building unicode-transforms-0.3.3...
+Preprocessing library unicode-transforms-0.3.3...
+[ 1 of 14] Compiling Data.Unicode.Types ( Data/Unicode/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Types.o )
+[ 2 of 14] Compiling Data.Unicode.Properties.DecompositionsK2 ( Data/Unicode/Properties/DecompositionsK2.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Properties/DecompositionsK2.o )
+[ 3 of 14] Compiling Data.Unicode.Properties.DecompositionsK ( Data/Unicode/Properties/DecompositionsK.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Properties/DecompositionsK.o )
+[ 4 of 14] Compiling Data.Unicode.Properties.Decompositions ( Data/Unicode/Properties/Decompositions.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Properties/Decompositions.o )
+[ 5 of 14] Compiling Data.Unicode.Properties.DecomposeHangul ( Data/Unicode/Properties/DecomposeHangul.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Properties/DecomposeHangul.o )
+[ 6 of 14] Compiling Data.Unicode.Properties.Compositions ( Data/Unicode/Properties/Compositions.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Properties/Compositions.o )
+[ 7 of 14] Compiling Data.Unicode.Properties.BitArray ( Data/Unicode/Properties/BitArray.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Properties/BitArray.o )
+[ 8 of 14] Compiling Data.Unicode.Properties.CombiningClass ( Data/Unicode/Properties/CombiningClass.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Properties/CombiningClass.o )
+[ 9 of 14] Compiling Data.Unicode.Properties.Decomposable ( Data/Unicode/Properties/Decomposable.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Properties/Decomposable.o )
+[10 of 14] Compiling Data.Unicode.Properties.DecomposableK ( Data/Unicode/Properties/DecomposableK.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Properties/DecomposableK.o )
+[11 of 14] Compiling Data.Unicode.Properties.Decompose ( Data/Unicode/Properties/Decompose.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Properties/Decompose.o )
+[12 of 14] Compiling Data.Unicode.Internal.NormalizeStream ( Data/Unicode/Internal/NormalizeStream.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Unicode/Internal/NormalizeStream.o )
+[13 of 14] Compiling Data.Text.Normalize ( Data/Text/Normalize.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/Text/Normalize.o )
+[14 of 14] Compiling Data.ByteString.UTF8.Normalize ( Data/ByteString/UTF8/Normalize.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Data/ByteString/UTF8/Normalize.o )
+Installing library in
+/home/fluxit/.stack/snapshots/x86_64-linux-tinfo6/lts-9.21/8.0.2/lib/x86_64-linux-ghc-8.0.2/unicode-transforms-0.3.3-8HfHWjjEGFaDZp89UdPPVx
+Registering unicode-transforms-0.3.3...

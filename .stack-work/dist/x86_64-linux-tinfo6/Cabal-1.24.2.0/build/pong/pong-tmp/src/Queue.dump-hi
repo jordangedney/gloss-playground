@@ -1,0 +1,415 @@
+
+==================== FINAL INTERFACE ====================
+2018-09-02 16:40:40.920327142 UTC
+
+interface main@main:Queue [hpc] 8002
+  interface hash: 7c8bddca5b60d4aee1f3c8c94c1fff53
+  ABI hash: d6fb790626cb781e46199a15f3ac817c
+  export-list hash: 47ea2529f54a5557750f0e0393466d7f
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 89995e0720bf3ee279a11ff7655e7952
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Queue.emptyQueue
+  Queue.peek
+  Queue.pop
+  Queue.popQueue
+  Queue.push
+  Queue.pushQueue
+  Queue.Queue
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1 transformers-0.5.2.0@transformers-0.5.2.0
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Functor.Identity base-4.9.1.0:Data.List.NonEmpty
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Semigroup
+                         base-4.9.1.0:Data.Type.Equality base-4.9.1.0:Data.Version
+                         base-4.9.1.0:Data.Void base-4.9.1.0:GHC.Exts
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.State 8d226555bc2686d0ea757e495e63698c
+import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.State.Lazy 371607e50dde46b5f4103b3ab334a497
+b804b8f13b35e65ef68bd2f18d684bc1
+  $fShowQueue :: GHC.Show.Show a => GHC.Show.Show (Queue.Queue a)
+  DFunId
+  {- Arity: 1, Strictness: <L,U(A,A,C(U))>m,
+     Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ a ($dShow :: GHC.Show.Show a).
+                  @ (Queue.Queue a)
+                  (Queue.$fShowQueue_$cshowsPrec @ a $dShow)
+                  (Queue.$fShowQueue_$cshow @ a $dShow)
+                  (Queue.$fShowQueue_$cshowList @ a $dShow) -}
+d3ba86ddfaea3d363a7e82bd2ff2a208
+  $fShowQueue1 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+a3b76c69f42eb68139a0f6896adf4c8d
+  $fShowQueue2 :: [GHC.Types.Char]
+  {- Unfolding: ({__scc {main@main:Queue.showsPrec} False True} GHC.CString.unpackCString#
+                                                                  "}"#) -}
+959890b0da5f6be9c327ea519261bdcb
+  $fShowQueue3 :: [GHC.Types.Char]
+  {- Unfolding: ({__scc {main@main:Queue.showsPrec} False True} GHC.CString.unpackCString#
+                                                                  "outbox' = "#) -}
+7a7872d06d8142d107e262a1d08b10d2
+  $fShowQueue4 :: [GHC.Types.Char]
+  {- Unfolding: ({__scc {main@main:Queue.showsPrec} False True} GHC.CString.unpackCString#
+                                                                  ", "#) -}
+5fde478f9065b544399c851626d82517
+  $fShowQueue5 :: [GHC.Types.Char]
+  {- Unfolding: ({__scc {main@main:Queue.showsPrec} False True} GHC.CString.unpackCString#
+                                                                  "inbox' = "#) -}
+206a9a08cd4103013b0de92c19faeddd
+  $fShowQueue6 :: [GHC.Types.Char]
+  {- Unfolding: ({__scc {main@main:Queue.showsPrec} False True} GHC.CString.unpackCString#
+                                                                  "Queue {"#) -}
+b804b8f13b35e65ef68bd2f18d684bc1
+  $fShowQueue_$cshow ::
+    GHC.Show.Show a => Queue.Queue a -> GHC.Base.String
+  {- Arity: 2, Strictness: <L,U(A,A,C(U))><S,1*U(U,U)>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a ($dShow :: GHC.Show.Show a) (x :: Queue.Queue a) ->
+                 Queue.$fShowQueue_$cshowsPrec
+                   @ a
+                   $dShow
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+b804b8f13b35e65ef68bd2f18d684bc1
+  $fShowQueue_$cshowList ::
+    GHC.Show.Show a => [Queue.Queue a] -> GHC.Show.ShowS
+  {- Arity: 1, Strictness: <L,U(A,A,C(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a ($dShow :: GHC.Show.Show a) ->
+                 {__scc {main@main:Queue.showList} True True} GHC.Show.showList__
+                                                                @ (Queue.Queue a)
+                                                                (Queue.$fShowQueue_$cshowsPrec
+                                                                   @ a
+                                                                   $dShow
+                                                                   Queue.$fShowQueue1)) -}
+b804b8f13b35e65ef68bd2f18d684bc1
+  $fShowQueue_$cshowsPrec ::
+    GHC.Show.Show a => GHC.Types.Int -> Queue.Queue a -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,U(A,A,C(U))><S(S),1*U(U)><S,1*U(U,U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a
+                   (w :: GHC.Show.Show a)
+                   (w1 :: GHC.Types.Int)
+                   (w2 :: Queue.Queue a) ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 case w2 of ww2 { Queue.Queue ww3 ww4 ->
+                 Queue.$w$cshowsPrec @ a w ww1 ww3 ww4 } }) -}
+b47ce6e2e4e89711459350dba38eea6e
+  $tc'Queue :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8204953948414953281##
+                   12155274632858153673##
+                   Queue.$trModule
+                   Queue.$tc'Queue1) -}
+b0d21c12b11edb1e2be54a61b94356aa
+  $tc'Queue1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Queue"#) -}
+2967baf10399862396cce30c9cb80b3a
+  $tcQueue :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4158110914457585506##
+                   16811401023394677287##
+                   Queue.$trModule
+                   Queue.$trModule1) -}
+0527ec161c241c9c7272fe6330445f45
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Queue.$trModule2 Queue.$trModule1) -}
+0733be49ddc6d52ad1243452e5908db2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Queue"#) -}
+acefc3250433528179b771819df7cf70
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+71ec9d295c01c0112a5c5da9fdecb640
+  $w$cshowsPrec ::
+    GHC.Show.Show a => GHC.Prim.Int# -> [a] -> [a] -> GHC.Show.ShowS
+  {- Arity: 4, Strictness: <L,U(A,A,C(U))><S,U><L,U><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ a
+                   (w :: GHC.Show.Show a)
+                   (ww :: GHC.Prim.Int#)
+                   (ww1 :: [a])
+                   (ww2 :: [a]) ->
+                 {__scc {main@main:Queue.showsPrec} True True} let {
+                                                                 f :: GHC.Base.String
+                                                                      -> GHC.Base.String
+                                                                 = GHC.Show.showList @ a w ww1
+                                                               } in
+                                                               let {
+                                                                 f1 :: GHC.Base.String
+                                                                       -> GHC.Base.String
+                                                                 = GHC.Show.showList @ a w ww2
+                                                               } in
+                                                               let {
+                                                                 p :: GHC.Show.ShowS
+                                                                   {- Arity: 1,
+                                                                      Strictness: <L,1*U> -}
+                                                                 = \ (x :: GHC.Base.String) ->
+                                                                   GHC.Base.++
+                                                                     @ GHC.Types.Char
+                                                                     Queue.$fShowQueue6
+                                                                     (GHC.Base.++
+                                                                        @ GHC.Types.Char
+                                                                        Queue.$fShowQueue5
+                                                                        (f (GHC.Base.++
+                                                                              @ GHC.Types.Char
+                                                                              Queue.$fShowQueue4
+                                                                              (GHC.Base.++
+                                                                                 @ GHC.Types.Char
+                                                                                 Queue.$fShowQueue3
+                                                                                 (f1
+                                                                                    (GHC.Base.++
+                                                                                       @ GHC.Types.Char
+                                                                                       Queue.$fShowQueue2
+                                                                                       x))))))
+                                                               } in
+                                                               case GHC.Prim.tagToEnum#
+                                                                      @ GHC.Types.Bool
+                                                                      (GHC.Prim.>=#
+                                                                         ww
+                                                                         11#) of wild {
+                                                                 GHC.Types.False -> p
+                                                                 GHC.Types.True
+                                                                 -> \ (x :: GHC.Base.String) ->
+                                                                    GHC.Types.:
+                                                                      @ GHC.Types.Char
+                                                                      GHC.Show.shows7
+                                                                      (p (GHC.Types.:
+                                                                            @ GHC.Types.Char
+                                                                            GHC.Show.shows4
+                                                                            x)) }) -}
+b982e117ecc6b8b11dec2be530ea1751
+  $wpeek :: [a] -> [a] -> (# GHC.Base.Maybe a, Queue.Queue a #)
+  {- Arity: 2, Strictness: <S,U><S,U>, Inline: [0],
+     Unfolding: (\ @ a (ww :: [a]) (ww1 :: [a]) ->
+                 {__scc {main@main:Queue.peek} True False} case ww of wild {
+                                                             []
+                                                             -> case ww1 of wild1 {
+                                                                  []
+                                                                  -> (# GHC.Base.Nothing @ a,
+                                                                        Queue.emptyQueue @ a #)
+                                                                  : ipv ipv1
+                                                                  -> (# GHC.Base.Just @ a ipv,
+                                                                        Queue.Queue
+                                                                          @ a
+                                                                          (GHC.Types.[] @ a)
+                                                                          wild1 #) }
+                                                             : ipv ipv1
+                                                             -> case ww1 of wild1 {
+                                                                  []
+                                                                  -> {__scc {main@main:Queue.peek} False True} {__scc {main@main:Queue.peek} True False} case GHC.List.reverse1
+                                                                                                                                                                @ a
+                                                                                                                                                                wild
+                                                                                                                                                                (GHC.Types.[]
+                                                                                                                                                                   @ a) of wild2 {
+                                                                                                                                                           []
+                                                                                                                                                           -> (# GHC.Base.Nothing
+                                                                                                                                                                   @ a,
+                                                                                                                                                                 Queue.emptyQueue
+                                                                                                                                                                   @ a #)
+                                                                                                                                                           : ipv2 ipv3
+                                                                                                                                                           -> (# GHC.Base.Just
+                                                                                                                                                                   @ a
+                                                                                                                                                                   ipv2,
+                                                                                                                                                                 Queue.Queue
+                                                                                                                                                                   @ a
+                                                                                                                                                                   (GHC.Types.[]
+                                                                                                                                                                      @ a)
+                                                                                                                                                                   wild2 #) }
+                                                                  : x ds
+                                                                  -> (# GHC.Base.Just @ a x,
+                                                                        Queue.Queue
+                                                                          @ a
+                                                                          wild
+                                                                          wild1 #) } }) -}
+b804b8f13b35e65ef68bd2f18d684bc1
+  data Queue a = Queue {inbox' :: [a], outbox' :: [a]}
+e22f94e51f22b044a834482cb8e32710
+  type QueueState a =
+    Control.Monad.Trans.State.Lazy.State (Queue.Queue a) :: * -> *
+34ca91b685fe20b6f2d15f7438fc0d8a
+  emptyQueue :: Queue.Queue a
+  {- Unfolding: (\ @ a ->
+                 {__scc {main@main:Queue.emptyQueue} True False} Queue.Queue
+                                                                   @ a
+                                                                   (GHC.Types.[] @ a)
+                                                                   (GHC.Types.[] @ a)) -}
+1cc174e54eabbb43d9a51154aa87e00d
+  inbox' :: Queue.Queue a -> [a]
+  RecSel Left Queue.Queue
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (ds :: Queue.Queue a) ->
+                 {__scc {main@main:Queue.inbox'} True True} case ds of wild { Queue.Queue ds1 ds2 ->
+                                                            ds1 }) -}
+4ef637578ff709455ab28519fc5586c7
+  outbox' :: Queue.Queue a -> [a]
+  RecSel Left Queue.Queue
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (ds :: Queue.Queue a) ->
+                 {__scc {main@main:Queue.outbox'} True True} case ds of wild { Queue.Queue ds1 ds2 ->
+                                                             ds2 }) -}
+b4649b9ed0be44319a492dd052b9d547
+  peek :: Queue.Queue a -> (GHC.Base.Maybe a, Queue.Queue a)
+  {- Arity: 1, Strictness: <S(SS),1*U(U,U)>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (w :: Queue.Queue a) ->
+                 case w of ww { Queue.Queue ww1 ww2 ->
+                 {__scc {main@main:Queue.peek} True False} case ww1 of wild {
+                                                             []
+                                                             -> case ww2 of wild1 {
+                                                                  []
+                                                                  -> (GHC.Base.Nothing @ a,
+                                                                      Queue.emptyQueue @ a)
+                                                                  : ipv ipv1
+                                                                  -> (GHC.Base.Just @ a ipv,
+                                                                      Queue.Queue
+                                                                        @ a
+                                                                        (GHC.Types.[] @ a)
+                                                                        wild1) }
+                                                             : ipv ipv1
+                                                             -> case ww2 of wild1 {
+                                                                  []
+                                                                  -> case {__scc {main@main:Queue.peek} False True} {__scc {main@main:Queue.peek} True False} GHC.List.reverse1
+                                                                                                                                                                @ a
+                                                                                                                                                                wild
+                                                                                                                                                                (GHC.Types.[]
+                                                                                                                                                                   @ a) of wild2 {
+                                                                       []
+                                                                       -> (GHC.Base.Nothing @ a,
+                                                                           Queue.emptyQueue @ a)
+                                                                       : ipv2 ipv3
+                                                                       -> (GHC.Base.Just @ a ipv2,
+                                                                           Queue.Queue
+                                                                             @ a
+                                                                             (GHC.Types.[] @ a)
+                                                                             wild2) }
+                                                                  : x ds
+                                                                  -> (GHC.Base.Just @ a x,
+                                                                      Queue.Queue
+                                                                        @ a
+                                                                        wild
+                                                                        wild1) } } }) -}
+a1913621a01c7d9eceb8910508b0590d
+  pop :: Queue.Queue a -> (GHC.Base.Maybe a, Queue.Queue a)
+  {- Arity: 1, Strictness: <S(SS),1*U(U,U)>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (w :: Queue.Queue a) ->
+                 case w of ww { Queue.Queue ww1 ww2 ->
+                 case {__scc {main@main:Queue.pop} True True} {__scc {main@main:Queue.pop.top} True False} {__scc {main@main:Queue.pop.(...)} True True} Queue.$wpeek
+                                                                                                                                                           @ a
+                                                                                                                                                           ww1
+                                                                                                                                                           ww2 of ww3 { (#,#) ww4 ww5 ->
+                 case ww4 of wild {
+                   GHC.Base.Nothing -> (GHC.Base.Nothing @ a, Queue.emptyQueue @ a)
+                   GHC.Base.Just element
+                   -> (GHC.Base.Just @ a element,
+                       {__scc {main@main:Queue.pop} False True} let {
+                                                                  queue' :: Queue.Queue a
+                                                                  = {__scc {main@main:Queue.pop.queue'} True False} ww5
+                                                                } in
+                                                                {__scc {main@main:Queue.pop.poppedQueue} True False} Queue.Queue
+                                                                                                                       @ a
+                                                                                                                       ({__scc {main@main:Queue.pop.poppedQueue} False True} {__scc {main@main:Queue.inbox'} True True} case queue' of wild1 { Queue.Queue ds ds1 ->
+                                                                                                                                                                                                                        ds })
+                                                                                                                       ({__scc {main@main:Queue.pop.poppedQueue} False True} {__scc {main@main:Queue.outbox'} True False} case queue' of wild1 { Queue.Queue ds ds1 ->
+                                                                                                                                                                                                                          case ds1 of wild2 {
+                                                                                                                                                                                                                            []
+                                                                                                                                                                                                                            -> GHC.List.scanl2
+                                                                                                                                                                                                                                 @ a
+                                                                                                                                                                                                                            : ds2 xs
+                                                                                                                                                                                                                            -> xs } })) } } }) -}
+bd9b0510cd2601970f06420d08146197
+  popQueue :: Queue.QueueState a (GHC.Base.Maybe a)
+  {- Unfolding: InlineRule (0, True, True)
+                Queue.popQueue1
+                  `cast`
+                (forall (a :: <*>_N).
+                 Trans
+                     (<Queue.Queue a>_R
+                      ->_R Sym (Data.Functor.Identity.N:Identity[0]
+                                    <(GHC.Base.Maybe a, Queue.Queue a)>_R))
+                     (Sym (Control.Monad.Trans.State.Lazy.N:StateT[0]
+                               <Queue.Queue a>_N
+                               <Data.Functor.Identity.Identity>_R
+                               <GHC.Base.Maybe a>_N))) -}
+b327d5f57fecac7225f4702c639cf0dc
+  popQueue1 :: Queue.Queue a -> (GHC.Base.Maybe a, Queue.Queue a)
+  {- Unfolding: (\ @ a ->
+                 {__scc {main@main:Queue.popQueue} True False} \ (eta :: Queue.Queue
+                                                                           a) ->
+                                                               {__scc {main@main:Queue.popQueue} False True} {__scc {main@main:Queue.popQueue.\} True True} Queue.pop
+                                                                                                                                                              @ a
+                                                                                                                                                              eta) -}
+32cd3f698b03750cb7690047c9a8f414
+  push :: a -> Queue.Queue a -> Queue.Queue a
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><S,1*U(U,U)>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a (elementToAdd :: a) (ds :: Queue.Queue a) ->
+                 {__scc {main@main:Queue.push} True True} case ds of wild { Queue.Queue inbox outbox ->
+                                                          Queue.Queue
+                                                            @ a
+                                                            (GHC.Types.: @ a elementToAdd inbox)
+                                                            outbox }) -}
+38dcfc6ba0c485505f11ef308e5acad8
+  pushQueue :: a -> Queue.QueueState a ()
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Queue.pushQueue1
+                  `cast`
+                (forall (a :: <*>_N).
+                 <a>_R
+                 ->_R Trans
+                          (<Queue.Queue a>_R
+                           ->_R Sym (Data.Functor.Identity.N:Identity[0]
+                                         <((), Queue.Queue a)>_R))
+                          (Sym (Control.Monad.Trans.State.Lazy.N:StateT[0]
+                                    <Queue.Queue a>_N
+                                    <Data.Functor.Identity.Identity>_R
+                                    <()>_N))) -}
+2a79e86a80d8a6b9f37612d0cd6c9611
+  pushQueue1 :: a -> Queue.Queue a -> ((), Queue.Queue a)
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a (element :: a) ->
+                 {__scc {main@main:Queue.pushQueue} True False} \ (eta :: Queue.Queue
+                                                                            a) ->
+                                                                {__scc {main@main:Queue.pushQueue} False True} {__scc {main@main:Queue.pushQueue.\} True False} (GHC.Tuple.(),
+                                                                                                                                                                 {__scc {main@main:Queue.pushQueue.\} False True} {__scc {main@main:Queue.push} True True} case eta of wild { Queue.Queue inbox outbox ->
+                                                                                                                                                                                                                                                           Queue.Queue
+                                                                                                                                                                                                                                                             @ a
+                                                                                                                                                                                                                                                             (GHC.Types.:
+                                                                                                                                                                                                                                                                @ a
+                                                                                                                                                                                                                                                                element
+                                                                                                                                                                                                                                                                inbox)
+                                                                                                                                                                                                                                                             outbox })) -}
+instance [safe] GHC.Show.Show [Queue.Queue] = Queue.$fShowQueue
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

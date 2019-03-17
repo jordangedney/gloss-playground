@@ -1,0 +1,80 @@
+[1 of 2] Compiling Main             ( /tmp/stack10156/GLFW-0.5.2.5/Setup.hs, /tmp/stack10156/GLFW-0.5.2.5/.stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /home/fluxit/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack10156/GLFW-0.5.2.5/.stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/setup/StackSetupShim.o )
+Linking /tmp/stack10156/GLFW-0.5.2.5/.stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/setup/setup ...
+Configuring GLFW-0.5.2.5...
+Checking for Xrandr support...no
+Checking for VidMode support...yes
+Checking for glXGetProcAddress support...yes
+Checking for sysconf support...yes
+Checking for sysctl support...yes
+Building GLFW-0.5.2.5...
+Preprocessing library GLFW-0.5.2.5...
+[1 of 1] Compiling Graphics.UI.GLFW ( Graphics/UI/GLFW.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/UI/GLFW.o )
+
+Graphics/UI/GLFW.hs:118:1: warning: [-Wdodgy-imports]
+    Module ‘Foreign’ does not export ‘unsafePerformIO’
+glfw/lib/x11/x11_window.c: In function ‘translateKey’:
+
+glfw/lib/x11/x11_window.c:250:5: error:
+     warning: ‘XKeycodeToKeysym’ is deprecated [-Wdeprecated-declarations]
+         key = XKeycodeToKeysym( _glfwLibrary.display, keycode, 1 );
+         ^~~
+
+In file included from glfw/lib/x11/platform.h:44:0: error:
+    0,
+                     from glfw/lib/internal.h:92,
+                     from glfw/lib/x11/x11_window.c:31:
+
+/usr/include/X11/Xlib.h:1687:15: error:
+     note: declared here
+     extern KeySym XKeycodeToKeysym(
+                   ^~~~~~~~~~~~~~~~
+
+glfw/lib/x11/x11_window.c:272:5: error:
+     warning: ‘XKeycodeToKeysym’ is deprecated [-Wdeprecated-declarations]
+         key = XKeycodeToKeysym( _glfwLibrary.display, keycode, 0 );
+         ^~~
+
+In file included from glfw/lib/x11/platform.h:44:0: error:
+    0,
+                     from glfw/lib/internal.h:92,
+                     from glfw/lib/x11/x11_window.c:31:
+
+/usr/include/X11/Xlib.h:1687:15: error:
+     note: declared here
+     extern KeySym XKeycodeToKeysym(
+                   ^~~~~~~~~~~~~~~~
+glfw/lib/x11/x11_window.c: In function ‘translateKey’:
+
+glfw/lib/x11/x11_window.c:250:5: error:
+     warning: ‘XKeycodeToKeysym’ is deprecated [-Wdeprecated-declarations]
+         key = XKeycodeToKeysym( _glfwLibrary.display, keycode, 1 );
+         ^~~
+
+In file included from glfw/lib/x11/platform.h:44:0: error:
+    0,
+                     from glfw/lib/internal.h:92,
+                     from glfw/lib/x11/x11_window.c:31:
+
+/usr/include/X11/Xlib.h:1687:15: error:
+     note: declared here
+     extern KeySym XKeycodeToKeysym(
+                   ^~~~~~~~~~~~~~~~
+
+glfw/lib/x11/x11_window.c:272:5: error:
+     warning: ‘XKeycodeToKeysym’ is deprecated [-Wdeprecated-declarations]
+         key = XKeycodeToKeysym( _glfwLibrary.display, keycode, 0 );
+         ^~~
+
+In file included from glfw/lib/x11/platform.h:44:0: error:
+    0,
+                     from glfw/lib/internal.h:92,
+                     from glfw/lib/x11/x11_window.c:31:
+
+/usr/include/X11/Xlib.h:1687:15: error:
+     note: declared here
+     extern KeySym XKeycodeToKeysym(
+                   ^~~~~~~~~~~~~~~~
+Installing library in
+/home/fluxit/workspace/haskell/pastel/.stack-work/install/x86_64-linux-tinfo6/lts-9.21/8.0.2/lib/x86_64-linux-ghc-8.0.2/GLFW-0.5.2.5-3r1bYEbd4ug3D9TEiAGlLv
+Registering GLFW-0.5.2.5...

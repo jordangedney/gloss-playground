@@ -1,0 +1,18 @@
+Configuring GLURaw-2.0.0.3...
+Building GLURaw-2.0.0.3...
+Preprocessing library GLURaw-2.0.0.3...
+[1 of 6] Compiling Graphics.GLU.TypesInternal ( src/Graphics/GLU/TypesInternal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU/TypesInternal.o )
+[2 of 6] Compiling Graphics.GLU.Types ( src/Graphics/GLU/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU/Types.o )
+[3 of 6] Compiling Graphics.GLU.Tokens ( src/Graphics/GLU/Tokens.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU/Tokens.o )
+[4 of 6] Compiling Graphics.GLU.Functions ( src/Graphics/GLU/Functions.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU/Functions.o )
+[5 of 6] Compiling Graphics.GLU.Callbacks ( src/Graphics/GLU/Callbacks.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU/Callbacks.o )
+[6 of 6] Compiling Graphics.GLU     ( src/Graphics/GLU.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU.o )
+[1 of 6] Compiling Graphics.GLU.TypesInternal ( src/Graphics/GLU/TypesInternal.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU/TypesInternal.p_o )
+[2 of 6] Compiling Graphics.GLU.Types ( src/Graphics/GLU/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU/Types.p_o )
+[3 of 6] Compiling Graphics.GLU.Tokens ( src/Graphics/GLU/Tokens.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU/Tokens.p_o )
+[4 of 6] Compiling Graphics.GLU.Functions ( src/Graphics/GLU/Functions.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU/Functions.p_o )
+[5 of 6] Compiling Graphics.GLU.Callbacks ( src/Graphics/GLU/Callbacks.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU/Callbacks.p_o )
+[6 of 6] Compiling Graphics.GLU     ( src/Graphics/GLU.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Graphics/GLU.p_o )
+Installing library in
+/home/fluxit/.stack/snapshots/x86_64-linux-tinfo6/lts-9.21/8.0.2/lib/x86_64-linux-ghc-8.0.2/GLURaw-2.0.0.3-HbkTOYe7GSm9IoqTwuffLD
+Registering GLURaw-2.0.0.3...

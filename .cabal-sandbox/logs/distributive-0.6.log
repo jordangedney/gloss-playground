@@ -1,0 +1,25 @@
+cabal: Entering directory '/tmp/cabal-tmp-16061/distributive-0.6'
+[1 of 1] Compiling Main             ( /tmp/cabal-tmp-16061/distributive-0.6/dist/dist-sandbox-e43b1236/setup/setup.hs, /tmp/cabal-tmp-16061/distributive-0.6/dist/dist-sandbox-e43b1236/setup/Main.o )
+Linking /tmp/cabal-tmp-16061/distributive-0.6/dist/dist-sandbox-e43b1236/setup/setup ...
+Warning: distributive.cabal: Unknown fields: build-tool-depends (line 107)
+Fields allowed in this section:
+type, main-is, test-module, buildable, build-tools, build-depends,
+cpp-options, cc-options, ld-options, pkgconfig-depends, frameworks,
+extra-framework-dirs, c-sources, js-sources, default-language,
+other-languages, default-extensions, other-extensions, extensions,
+extra-libraries, extra-ghci-libraries, extra-lib-dirs, includes,
+install-includes, include-dirs, hs-source-dirs, other-modules,
+ghc-prof-options, ghcjs-prof-options, ghc-shared-options,
+ghcjs-shared-options, ghc-options, ghcjs-options, jhc-options,
+hugs-options, nhc98-options
+Configuring distributive-0.6...
+Building distributive-0.6...
+Preprocessing library distributive-0.6...
+[1 of 2] Compiling Data.Distributive ( src/Data/Distributive.hs, dist/dist-sandbox-e43b1236/build/Data/Distributive.o )
+[2 of 2] Compiling Data.Distributive.Generic ( src/Data/Distributive/Generic.hs, dist/dist-sandbox-e43b1236/build/Data/Distributive/Generic.o )
+Creating package registration file:
+/tmp/pkgConf-distributive-03170974671892066601.6
+Installing library in
+/home/fluxit/workspace/haskell/pong/.cabal-sandbox/lib/x86_64-linux-ghc-8.0.2/distributive-0.6-4b2Cnv8NOkP1oRkumo5kEk
+Registering distributive-0.6...
+cabal: Leaving directory '/tmp/cabal-tmp-16061/distributive-0.6'

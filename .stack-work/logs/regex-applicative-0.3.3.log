@@ -1,0 +1,29 @@
+Configuring regex-applicative-0.3.3...
+Building regex-applicative-0.3.3...
+Preprocessing library regex-applicative-0.3.3...
+[1 of 8] Compiling Text.Regex.Applicative.Types ( Text/Regex/Applicative/Types.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Text/Regex/Applicative/Types.o )
+[2 of 8] Compiling Text.Regex.Applicative.StateQueue ( Text/Regex/Applicative/StateQueue.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Text/Regex/Applicative/StateQueue.o )
+[3 of 8] Compiling Text.Regex.Applicative.Reference ( Text/Regex/Applicative/Reference.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Text/Regex/Applicative/Reference.o )
+[4 of 8] Compiling Text.Regex.Applicative.Compile ( Text/Regex/Applicative/Compile.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Text/Regex/Applicative/Compile.o )
+
+Text/Regex/Applicative/Compile.hs:7:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[5 of 8] Compiling Text.Regex.Applicative.Object ( Text/Regex/Applicative/Object.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Text/Regex/Applicative/Object.o )
+
+Text/Regex/Applicative/Object.hs:37:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[6 of 8] Compiling Text.Regex.Applicative.Interface ( Text/Regex/Applicative/Interface.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Text/Regex/Applicative/Interface.o )
+
+Text/Regex/Applicative/Interface.hs:7:1: warning: [-Wunused-imports]
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[7 of 8] Compiling Text.Regex.Applicative ( Text/Regex/Applicative.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Text/Regex/Applicative.o )
+[8 of 8] Compiling Text.Regex.Applicative.Common ( Text/Regex/Applicative/Common.hs, .stack-work/dist/x86_64-linux-tinfo6/Cabal-1.24.2.0/build/Text/Regex/Applicative/Common.o )
+Installing library in
+/home/fluxit/.stack/snapshots/x86_64-linux-tinfo6/lts-9.21/8.0.2/lib/x86_64-linux-ghc-8.0.2/regex-applicative-0.3.3-9dbODILokN54la9GS4TJob
+Registering regex-applicative-0.3.3...
